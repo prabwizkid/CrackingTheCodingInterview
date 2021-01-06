@@ -1,3 +1,6 @@
+# Implement an algorithm to determine if a String has all unique characters.
+# What if you cannot use additional data structures?
+
 def isUnique(str):
     
     if len(str) > 128:  # Assuming the string is an ASCII string
@@ -15,4 +18,4 @@ def isUnique(str):
     return True
 
 
-print(isUnique('abcdefghijkAb'))
+print(isUnique('abcdefghijkB'))
